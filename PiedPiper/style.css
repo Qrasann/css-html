@@ -1,0 +1,220 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: "Roboto", sans-serif;
+}
+section {
+    width: 100%;
+}
+p,
+h1 {
+    width: auto;
+    padding: auto 450px;
+}
+
+header {
+    height: 84px;
+    flex-shrink: 0;
+    background: #007765;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container img {
+    width: 100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 72px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+footer {
+    height: 176px;
+    background: #333;
+}
+
+footer p {
+    text-align: center;
+    padding: 55px 674px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.theTeam {
+    background: #eee;
+    height: 845px;
+    flex-shrink: 0;
+}
+.theTeam h1 {
+    padding-top: 60px;
+    color: #007765;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.teamBox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 56px 225px;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+figcaption {
+    color: #007765;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item {
+    width: 30%;
+    margin: 0 -36px 72.5px 0;
+}
+
+.item p {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item img {
+    width: 168px;
+    height: 168px;
+    flex-shrink: 0;
+}
+
+.piedPiperCoin {
+    text-align: left;
+    height: 604px;
+    flex-shrink: 0;
+    background: #fff;
+}
+
+.piedPiperCoin h1 {
+    color: #007765;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.piedPiperCoin .content {
+    padding: 60px 485px 60px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 110px;
+    flex-shrink: 0;
+}
+
+.piedPiperCoin img {
+    width: 115px;
+    height: 115px;
+    float: left; /* Изображение выровнено слева */
+}
+
+.piedPiperCoin .piperWeb {
+    margin-left: 130px; /* Добавили сдвиг слева для элемента с классом piperWeb */
+}
+
+.piperCoinbox {
+    padding-top: 50px;
+}
+
+.together {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    width: 893px;
+    height: 228px;
+    flex-shrink: 0;
+}
+
+.theProblem {
+    position: relative;
+    top: 48px;
+    padding: 0 360px;
+    height: 719px;
+    flex-shrink: 0;
+}
+
+.theProblem p {
+    padding: 25px 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.theProblem h1 {
+    color: #007765;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+a {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.header {
+    position: relative;
+    text-align: right;
+    top: -20px;
+    left: -400px;
+}
+
+.logo {
+    position: relative;
+    top: 20px;
+    left: 400px;
+    width: 184px;
+    height: 45px;
+    flex-shrink: 0;
+}
